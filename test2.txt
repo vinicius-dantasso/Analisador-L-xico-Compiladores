@@ -1,0 +1,5 @@
+PizzaCalaBoca
+    EquivalentTo:
+        hasDkrgmfk
+        isCalabocaOf
+        hasEhfyjt

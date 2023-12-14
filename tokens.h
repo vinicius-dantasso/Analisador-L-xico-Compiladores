@@ -1,0 +1,8 @@
+// constantes para os tokens 
+//enum {IF=1, THEN, ELSE, ID, NUM, RELOP}; 
+enum
+{
+    SOME = 1, ALL, VALUE, MIN, MAX, EXACTLY, THAT, NOT, AND, OR,
+    CLASS, EQUIVALENTTO, INDIVIDUALS, SUBCLASSOF, DISJOINTCLASSES, 
+    RELOP, NUM
+};
