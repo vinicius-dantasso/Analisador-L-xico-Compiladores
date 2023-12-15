@@ -13,11 +13,21 @@ void Parser::Start()
         {
             case CLASS: cout << "CLASS\n"; break;
             case AND: cout << "AND\n"; break;
+            case SOME: cout << "SOME\n"; break;
+            case ALL: cout << "ALL\n"; break;
+            case VALUE: cout << "VALUE\n"; break;
+            case MIN: cout << "MIN\n"; break;
+            case MAX: cout << "MAX\n"; break;
+            case EXACTLY: cout << "EXACTLY\n"; break;
+            case THAT: cout << "THAT\n"; break;
+            case NOT: cout << "NOT\n"; break;
+            case OR: cout << "OR\n"; break;
+            case SUBCLASSOF: cout << "SUBCLASSOF\n"; break;
+            case DISJOINTCLASSES: cout << "DISJOINTCLASSES\n"; break;
             case EQUIVALENTTO: cout << "EQUIVALENTTO\n"; break;
-            case 21: cout << "isOf\n"; break;
-            // case ID: cout << "ID: " << scanner.YYText() << "\n"; break;
-            // case NUM: cout << "NUM: " << scanner.YYText() << "\n"; break;
-            // case RELOP: cout << "RELOP: " << scanner.YYText() << "\n";; break;
+            case INDIVIDUALS: cout << "INDIVIDUALS\n"; break;
+            case RELOP: cout << "RELOP\n"; break;
+            case NUM: cout << "NUM\n"; break;
         }
     }
 }

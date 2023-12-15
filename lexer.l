@@ -8,18 +8,23 @@ using std::cout;
 %option noyywrap
 delim	[ \t\n]
 brancos {delim}+
-letraMa [A-Z]+
-letraMi [a-z]+
-letra [A-Za-z]
+letterMa [A-Z]+
+letterMi [a-z]+
+letter [A-Za-z]+
+noLetter [^A-Za-z]
 digito	[0-9]+
 underline [_]
-has (h)(a)(s)
-is (i)(s)
-of (O)(f)
-propHas {has}({letra})+
-propIs {is}({letraMa}({letra})+){of}
-idClasse {letraMa}({letra}|{underline})*
-num	    {digito}+(\.{digito}+)?(E[+-]?{digito}+)?
+has (has)
+is (is)
+of (Of)
+colon (:)
+propHas ({has})({letter})
+propIs {is}({letterMa}({letter})){of}
+idClasse {letterMa}({letter}|{underline})*
+idIndividual {letterMa}({letter})({digito})
+propertie ({letterMi})({letter})
+anyPropertie {letterMi}({colon})({letter})
+
 
 %%
 {brancos}	; // nenhuma ação e nenhum retorno
@@ -38,17 +43,26 @@ EquivalentTo:       return EQUIVALENTTO;
 Individuals:        return INDIVIDUALS;
 SubClassOf:         return SUBCLASSOF;
 DisjointClasses:    return DISJOINTCLASSES;
-{idClasse}          return CLASS;
-{propIs}            cout << "isOf\n";
-{propHas}           cout << "HAS\n";
-{num}	            return NUM; 
+{digito}	        return NUM; 
 "<"		            return RELOP; 
 "<="		        return RELOP; 
 "="		            return RELOP; 
 "<>"		        return RELOP; 
 ">"		            return RELOP;
-">="		        return RELOP; 
-.                   cout << YYText() << " é um token inválido!\n"; 
+">="		        return RELOP;
+ "["                return RELOP;
+ "]"                return RELOP;
+ "{"                return RELOP;
+ "}"                return RELOP;
+ "("                return RELOP;
+ ")"                return RELOP;
+ ","                return RELOP;
+{propIs}            cout << "isOf\n";
+{propHas}           cout << "HAS\n";
+{propertie}         cout << "PROPERTIE\n";
+{anyPropertie}      cout << "PROPERTIE\n";
+{idClasse}          cout << "ID_CLASS\n";
+{idIndividual}      cout << "ID_INDIVIDUAL\n";
 %%
 
 // nenhuma função auxiliar é necessária
