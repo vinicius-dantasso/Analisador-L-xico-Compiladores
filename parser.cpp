@@ -22,6 +22,7 @@ void Parser::Start()
             case THAT: cout << "THAT\n"; break;
             case NOT: cout << "NOT\n"; break;
             case OR: cout << "OR\n"; break;
+            case ONLY: cout << "ONLY\n"; break;
             case SUBCLASSOF: cout << "SUBCLASSOF\n"; break;
             case DISJOINTCLASSES: cout << "DISJOINTCLASSES\n"; break;
             case EQUIVALENTTO: cout << "EQUIVALENTTO\n"; break;

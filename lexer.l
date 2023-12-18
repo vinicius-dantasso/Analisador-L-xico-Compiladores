@@ -38,6 +38,7 @@ that                return THAT;
 not                 return NOT;
 and                 return AND;
 or                  return OR;
+only                return ONLY;
 Class:              return CLASS;
 EquivalentTo:       return EQUIVALENTTO;
 Individuals:        return INDIVIDUALS;
