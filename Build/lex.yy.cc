@@ -1,6 +1,6 @@
-#line 2 "/home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build/lex.yy.cc"
+#line 2 "/home/valentina/Analisador-L-xico-Compiladores/Build/lex.yy.cc"
 
-#line 4 "/home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build/lex.yy.cc"
+#line 4 "/home/valentina/Analisador-L-xico-Compiladores/Build/lex.yy.cc"
 
 #define  YY_INT_ALIGNED short int
 
@@ -533,8 +533,8 @@ static const flex_int16_t yy_chk[398] =
 #include <iostream>
 #include "tokens.h"
 using std::cout;
-#line 537 "/home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build/lex.yy.cc"
-#line 538 "/home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build/lex.yy.cc"
+#line 537 "/home/valentina/Analisador-L-xico-Compiladores/Build/lex.yy.cc"
+#line 538 "/home/valentina/Analisador-L-xico-Compiladores/Build/lex.yy.cc"
 
 #define INITIAL 0
 
@@ -668,7 +668,7 @@ YY_DECL
 	{
 #line 29 "lexer.l"
 
-#line 672 "/home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build/lex.yy.cc"
+#line 672 "/home/valentina/Analisador-L-xico-Compiladores/Build/lex.yy.cc"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -884,39 +884,39 @@ return RELOP;
 case 32:
 YY_RULE_SETUP
 #line 61 "lexer.l"
-cout << "isOf\n";
+return PROP;
 	YY_BREAK
 case 33:
 YY_RULE_SETUP
 #line 62 "lexer.l"
-cout << "HAS\n";
+return PROP;
 	YY_BREAK
 case 34:
 YY_RULE_SETUP
 #line 63 "lexer.l"
-cout << "PROPERTIE\n";
+return PROP;
 	YY_BREAK
 case 35:
 YY_RULE_SETUP
 #line 64 "lexer.l"
-cout << "PROPERTIE\n";
+return PROP;
 	YY_BREAK
 case 36:
 YY_RULE_SETUP
 #line 65 "lexer.l"
-cout << "ID_CLASS\n";
+return ID_CLASS; 
 	YY_BREAK
 case 37:
 YY_RULE_SETUP
 #line 66 "lexer.l"
-cout << "ID_INDIVIDUAL\n";
+return ID_INDIVIDUALS;
 	YY_BREAK
 case 38:
 YY_RULE_SETUP
 #line 67 "lexer.l"
 ECHO;
 	YY_BREAK
-#line 920 "/home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build/lex.yy.cc"
+#line 920 "/home/valentina/Analisador-L-xico-Compiladores/Build/lex.yy.cc"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 

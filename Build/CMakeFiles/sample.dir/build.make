@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample
+CMAKE_SOURCE_DIR = /home/valentina/Analisador-L-xico-Compiladores
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build
+CMAKE_BINARY_DIR = /home/valentina/Analisador-L-xico-Compiladores/Build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sample.dir/depend.make
@@ -70,50 +70,50 @@ include CMakeFiles/sample.dir/progress.make
 include CMakeFiles/sample.dir/flags.make
 
 lex.yy.cc: ../lexer.l
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "[FLEX][Lexer] Building scanner with flex 2.6.4"
-	cd /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample && /usr/bin/flex -+ -o/home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build/lex.yy.cc lexer.l
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/valentina/Analisador-L-xico-Compiladores/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "[FLEX][Lexer] Building scanner with flex 2.6.4"
+	cd /home/valentina/Analisador-L-xico-Compiladores && /usr/bin/flex -+ -o/home/valentina/Analisador-L-xico-Compiladores/Build/lex.yy.cc lexer.l
 
 CMakeFiles/sample.dir/parser.cpp.o: CMakeFiles/sample.dir/flags.make
 CMakeFiles/sample.dir/parser.cpp.o: ../parser.cpp
 CMakeFiles/sample.dir/parser.cpp.o: CMakeFiles/sample.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sample.dir/parser.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sample.dir/parser.cpp.o -MF CMakeFiles/sample.dir/parser.cpp.o.d -o CMakeFiles/sample.dir/parser.cpp.o -c /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valentina/Analisador-L-xico-Compiladores/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sample.dir/parser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sample.dir/parser.cpp.o -MF CMakeFiles/sample.dir/parser.cpp.o.d -o CMakeFiles/sample.dir/parser.cpp.o -c /home/valentina/Analisador-L-xico-Compiladores/parser.cpp
 
 CMakeFiles/sample.dir/parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample.dir/parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/parser.cpp > CMakeFiles/sample.dir/parser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valentina/Analisador-L-xico-Compiladores/parser.cpp > CMakeFiles/sample.dir/parser.cpp.i
 
 CMakeFiles/sample.dir/parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample.dir/parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/parser.cpp -o CMakeFiles/sample.dir/parser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valentina/Analisador-L-xico-Compiladores/parser.cpp -o CMakeFiles/sample.dir/parser.cpp.s
 
 CMakeFiles/sample.dir/sample.cpp.o: CMakeFiles/sample.dir/flags.make
 CMakeFiles/sample.dir/sample.cpp.o: ../sample.cpp
 CMakeFiles/sample.dir/sample.cpp.o: CMakeFiles/sample.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sample.dir/sample.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sample.dir/sample.cpp.o -MF CMakeFiles/sample.dir/sample.cpp.o.d -o CMakeFiles/sample.dir/sample.cpp.o -c /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/sample.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valentina/Analisador-L-xico-Compiladores/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sample.dir/sample.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sample.dir/sample.cpp.o -MF CMakeFiles/sample.dir/sample.cpp.o.d -o CMakeFiles/sample.dir/sample.cpp.o -c /home/valentina/Analisador-L-xico-Compiladores/sample.cpp
 
 CMakeFiles/sample.dir/sample.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample.dir/sample.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/sample.cpp > CMakeFiles/sample.dir/sample.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valentina/Analisador-L-xico-Compiladores/sample.cpp > CMakeFiles/sample.dir/sample.cpp.i
 
 CMakeFiles/sample.dir/sample.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample.dir/sample.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/sample.cpp -o CMakeFiles/sample.dir/sample.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valentina/Analisador-L-xico-Compiladores/sample.cpp -o CMakeFiles/sample.dir/sample.cpp.s
 
 CMakeFiles/sample.dir/lex.yy.cc.o: CMakeFiles/sample.dir/flags.make
 CMakeFiles/sample.dir/lex.yy.cc.o: lex.yy.cc
 CMakeFiles/sample.dir/lex.yy.cc.o: CMakeFiles/sample.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sample.dir/lex.yy.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sample.dir/lex.yy.cc.o -MF CMakeFiles/sample.dir/lex.yy.cc.o.d -o CMakeFiles/sample.dir/lex.yy.cc.o -c /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build/lex.yy.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/valentina/Analisador-L-xico-Compiladores/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sample.dir/lex.yy.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sample.dir/lex.yy.cc.o -MF CMakeFiles/sample.dir/lex.yy.cc.o.d -o CMakeFiles/sample.dir/lex.yy.cc.o -c /home/valentina/Analisador-L-xico-Compiladores/Build/lex.yy.cc
 
 CMakeFiles/sample.dir/lex.yy.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sample.dir/lex.yy.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build/lex.yy.cc > CMakeFiles/sample.dir/lex.yy.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/valentina/Analisador-L-xico-Compiladores/Build/lex.yy.cc > CMakeFiles/sample.dir/lex.yy.cc.i
 
 CMakeFiles/sample.dir/lex.yy.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sample.dir/lex.yy.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build/lex.yy.cc -o CMakeFiles/sample.dir/lex.yy.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/valentina/Analisador-L-xico-Compiladores/Build/lex.yy.cc -o CMakeFiles/sample.dir/lex.yy.cc.s
 
 # Object files for target sample
 sample_OBJECTS = \
@@ -129,7 +129,7 @@ sample: CMakeFiles/sample.dir/sample.cpp.o
 sample: CMakeFiles/sample.dir/lex.yy.cc.o
 sample: CMakeFiles/sample.dir/build.make
 sample: CMakeFiles/sample.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable sample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/valentina/Analisador-L-xico-Compiladores/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable sample"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sample.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -141,6 +141,6 @@ CMakeFiles/sample.dir/clean:
 .PHONY : CMakeFiles/sample.dir/clean
 
 CMakeFiles/sample.dir/depend: lex.yy.cc
-	cd /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build/CMakeFiles/sample.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/valentina/Analisador-L-xico-Compiladores/Build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/valentina/Analisador-L-xico-Compiladores /home/valentina/Analisador-L-xico-Compiladores /home/valentina/Analisador-L-xico-Compiladores/Build /home/valentina/Analisador-L-xico-Compiladores/Build /home/valentina/Analisador-L-xico-Compiladores/Build/CMakeFiles/sample.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sample.dir/depend
 

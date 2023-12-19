@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build -I/home/vinicius_dantas/Compiladores/Labs/Lab14/Sample
+CXX_INCLUDES = -I/home/valentina/Analisador-L-xico-Compiladores/Build -I/home/valentina/Analisador-L-xico-Compiladores
 
 CXX_FLAGS = -O3 -DNDEBUG
 

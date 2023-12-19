@@ -1,3 +1,3 @@
-/home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build/CMakeFiles/sample.dir
-/home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build/CMakeFiles/edit_cache.dir
-/home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build/CMakeFiles/rebuild_cache.dir
+/home/valentina/Analisador-L-xico-Compiladores/Build/CMakeFiles/sample.dir
+/home/valentina/Analisador-L-xico-Compiladores/Build/CMakeFiles/edit_cache.dir
+/home/valentina/Analisador-L-xico-Compiladores/Build/CMakeFiles/rebuild_cache.dir

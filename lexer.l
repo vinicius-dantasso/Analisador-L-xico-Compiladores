@@ -58,12 +58,12 @@ DisjointClasses:    return DISJOINTCLASSES;
  "("                return RELOP;
  ")"                return RELOP;
  ","                return RELOP;
-{propIs}            cout << "isOf\n";
-{propHas}           cout << "HAS\n";
-{propertie}         cout << "PROPERTIE\n";
-{anyPropertie}      cout << "PROPERTIE\n";
-{idClasse}          cout << "ID_CLASS\n";
-{idIndividual}      cout << "ID_INDIVIDUAL\n";
+{propIs}            return PROP;
+{propHas}           return PROP;
+{propertie}         return PROP;
+{anyPropertie}      return PROP;
+{idClasse}          return ID_CLASS; 
+{idIndividual}      return ID_INDIVIDUALS;
 %%
 
 // nenhuma função auxiliar é necessária
