@@ -1,7 +1,0 @@
-PizzaCalaBoca
-    EquivalentTo:
-        hasDkrgmfk
-        isCalabocaOf
-        hasEhfyjt
-    Individuals:
-        Pizza1

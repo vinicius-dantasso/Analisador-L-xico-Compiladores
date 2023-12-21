@@ -1,7 +1,7 @@
 CMakeFiles/sample.dir/parser.cpp.o: \
- /home/valentina/Analisador-L-xico-Compiladores/parser.cpp \
+ /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/parser.cpp \
  /usr/include/stdc-predef.h \
- /home/valentina/Analisador-L-xico-Compiladores/parser.h \
+ /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/parser.h \
  /usr/include/FlexLexer.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -153,4 +153,4 @@ CMakeFiles/sample.dir/parser.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/valentina/Analisador-L-xico-Compiladores/tokens.h
+ /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/tokens.h

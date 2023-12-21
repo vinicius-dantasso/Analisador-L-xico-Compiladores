@@ -1,5 +1,5 @@
 CMakeFiles/sample.dir/lex.yy.cc.o: \
- /home/valentina/Analisador-L-xico-Compiladores/Build/lex.yy.cc \
+ /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build/lex.yy.cc \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -155,7 +155,7 @@ CMakeFiles/sample.dir/lex.yy.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/FlexLexer.h \
- /home/valentina/Analisador-L-xico-Compiladores/tokens.h \
+ /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/tokens.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \

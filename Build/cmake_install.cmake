@@ -1,4 +1,4 @@
-# Install script for directory: /home/valentina/Analisador-L-xico-Compiladores
+# Install script for directory: /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/valentina/Analisador-L-xico-Compiladores/Build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/Build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

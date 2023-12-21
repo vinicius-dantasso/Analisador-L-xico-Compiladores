@@ -1,7 +1,7 @@
 CMakeFiles/sample.dir/sample.cpp.o: \
- /home/valentina/Analisador-L-xico-Compiladores/sample.cpp \
+ /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/sample.cpp \
  /usr/include/stdc-predef.h \
- /home/valentina/Analisador-L-xico-Compiladores/parser.h \
+ /home/vinicius_dantas/Compiladores/Labs/Lab14/Sample/parser.h \
  /usr/include/FlexLexer.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

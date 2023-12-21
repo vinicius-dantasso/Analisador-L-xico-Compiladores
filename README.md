@@ -16,10 +16,14 @@
 <p>- Clique nos três pontinhos, depois em terminal e Run Task, como descrito na imagem</p>
 ![image](https://github.com/vinicius-dantasso/Analisador-L-xico-Compiladores/assets/87619108/26502ecc-08ae-4559-b4bb-fb496a79ead3)
 <p>- Escolha a opção cmake</p>
-<p>- Aperte Ctrl + shift + b</p>
-<p>- Aperte enter e abra a terminal de comandos na pasta raiz do projeto</p>
-<p>- Mude para a pasta Build: cd Build/ </p>
-<p>- Execute esse comando: ./sample < ../testOfc.txt</p>
+<p>- Após 100% carregado, aperte qualquer tecla para fechar o terminal</p>
+<p>- Agora aperte as teclas Ctrl + Shift + B</p>
+<p>- Após 100% carregado, aperte qualquer tecla para fechar o terminal</p>
+<p>- Aperte as teclas Ctrl + J</p>
+<p>- Em seguida, digite o comando: cd Build/</p>
+<p>- E então execute o comando: ./sample < ../example.txt</p>
+
+<p>* Para que o programa rode de forma correta, verifique se o g++, flex e o cmake estão instalados</p>
 
 
 

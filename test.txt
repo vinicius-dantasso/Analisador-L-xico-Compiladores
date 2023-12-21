@@ -1,4 +1,0 @@
-if valor > 2.5E+30 then
-    ok
-else
-    problem
