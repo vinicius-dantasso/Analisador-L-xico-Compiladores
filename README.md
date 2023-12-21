@@ -13,7 +13,7 @@
 <p>Yash v0.2.9</p>
 
 <h2>Como compilar:</h2>
-<p>- Clique nos três pontinho, depois em terminal e Run Task, como descrito na imagem</p>
+<p>- Clique nos três pontinhos, depois em terminal e Run Task, como descrito na imagem</p>
 ![image](https://github.com/vinicius-dantasso/Analisador-L-xico-Compiladores/assets/87619108/26502ecc-08ae-4559-b4bb-fb496a79ead3)
 <p>- Escolha a opção cmake</p>
 <p>- Aperte Ctrl + shift + b</p>
